@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background: #08522d;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container {
+  background: rgb(231, 231, 231);
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  min-height: 400px;
+}
+
+.name {
+  background-color: rgb(41, 41, 115);
+  color: azure;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  margin: 20px;
+  font-size: small;
+  border-radius: 20px;
+}
+
+input {
+  width: 70%;
+  height: 30px;
+  padding: 5px;
+  margin-left: 60px;
+  box-shadow: 5px 2px 5px rgb(30, 30, 51);
+}
+
+.btn {
+  display: block;
+  margin: 10px auto;
+  padding: 8px 20px;
+  background-color: rgb(37, 103, 90);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: aliceblue;
+  color: #0c9a51;
+  font-weight: bold;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+
+.list-title {
+  margin-top: 20px;
+  background-color: rgb(31, 7, 212);
+  color: white;
+  text-align: center;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 220px;
+  margin-left: 130px;
+  margin-top: 50px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.list-title:hover {
+  background-color: rgb(5, 126, 226);
+}
+
+/* Task list */
+#tasklist {
+  margin-top: 20px;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  background: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 5px gray;
+}
+
+li small {
+  color: gray;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+li button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}
